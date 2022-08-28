@@ -201,8 +201,8 @@ margin-right: 50px;
      font-family: inherit;
  }
  .buttons, .buttons-current {
-    /* margin-right: 8px; */
-       
+   
+
         border-radius: 4px;
         padding: 6px 22px;
         min-width: 73px;
@@ -213,15 +213,17 @@ margin-right: 50px;
         cursor: pointer;
         font-family: inherit;}
 
- .buttons:not(:last-child) {
+ 
+.buttons-projects:not(:last-child) {
     margin-right: 8px;
-}
+} 
   .buttons { 
         background-color: var(--buttons-background-color);
         
  }
 
  .buttons-current {
+    
     color: #FFFFFF;
         background-color: #2196F3;
  }
